@@ -51,9 +51,21 @@ public class HomeFragment extends Fragment {
         textView.setText(description);
 
         // Set default values for the example
-        String headline = "Example Headline";
+        String headline = "Trump congratulates Canada's Carney as they agree to meet in \n" +
+                "'near future'\n" +
+                "\n" ;
         String date = "25 April 2025";
-        String content = "Full article content for: " + description;
+        String content = "Lorem ipsum dolor sit amet. Et molestiae nihil est distinctio quos eos itaque recusandae a quisquam galisum. Aut galisum perferendis sit quidem recusandae et impedit explicabo et beatae dolores in fugit beatae. Sed deserunt voluptatem et ducimus fuga a suscipit illo ut deleniti praesentium qui molestias officia.\n" +
+                "\n" +
+                "Aut voluptas corrupti nam voluptatem libero et nihil doloremque sed aspernatur sint eum debitis quas. Hic rerum perferendis ut sunt tempore aut dignissimos pariatur est beatae magnam cum Quis assumenda in doloribus ipsum. In voluptatibus atque est accusantium esse et repellat aperiam sed excepturi assumenda. Vel itaque architecto quo minima voluptates sit voluptatem incidunt.\n" +
+                "\n" +
+                "Et impedit facere et dolores earum et vero ipsum. Est consequuntur error qui enim necessitatibus in quia necessitatibus et fugiat unde ex aliquam cupiditate in laboriosam animi. Aut nostrum quos sit doloremque recusandae qui aliquam nulla ab eaque delectus a blanditiis nostrum et natus architecto.\n" +
+                "\n" +
+                "Et impedit facere et dolores earum et vero ipsum. Est consequuntur error qui enim necessitatibus in quia necessitatibus et fugiat unde ex aliquam cupiditate in laboriosam animi.\n" +
+                "\n" +
+                "Lorem ipsum dolor sit amet. Et molestiae nihil est distinctio quos eos itaque recusandae a quisquam galisum. Aut galisum perferendis sit quidem recusandae et impedit explicabo et beatae dolores in fugit beatae. Sed deserunt voluptatem et ducimus fuga a suscipit illo ut deleniti praesentium qui molestias officia.\n" +
+                "\n" +
+                "assumenda in doloribus ipsum. In voluptatibus atque est accusantium esse et repellat aperiam sed excepturi assumenda. Vel itaque architecto quo minima voluptates sit voluptatem incidunt";
 
         // Add click listener
         newsItem.setOnClickListener(v -> {
