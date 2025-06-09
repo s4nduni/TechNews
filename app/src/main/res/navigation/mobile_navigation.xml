@@ -12,6 +12,12 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/nav_sport"
+        android:name="com.example.fotnews.ui.sport.SportFragment"
+        android:label="@string/menu_sport"
+        tools:layout="@layout/fragment_sport" />
+
+    <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.fotnews.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
@@ -22,4 +28,16 @@
         android:name="com.example.fotnews.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_academic"
+        android:name="com.example.fotnews.ui.academic.AcademicFragment"
+        android:label="@string/menu_academic"
+        tools:layout="@layout/fragment_academic" />
+
+    <fragment
+        android:id="@+id/nav_event"
+        android:name="com.example.fotnews.ui.event.EventFragment"
+        android:label="@string/menu_event"
+        tools:layout="@layout/fragment_event"  />
 </navigation>

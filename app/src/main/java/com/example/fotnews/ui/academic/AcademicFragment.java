@@ -1,14 +1,13 @@
-package com.example.fotnews.ui.home;
+package com.example.fotnews.ui.academic;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -16,14 +15,13 @@ import androidx.fragment.app.Fragment;
 import com.example.fotnews.NewsDetailsActivity;
 import com.example.fotnews.R;
 
-public class HomeFragment extends Fragment {
+public class AcademicFragment extends Fragment {
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-
         // Inflate the custom layout (make sure this matches your actual XML filename in res/layout/)
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
+        View root = inflater.inflate(R.layout.fragment_academic, container, false);
 
         // Example of how to reference views
         LinearLayout newsContainer = root.findViewById(R.id.news_container);
@@ -33,11 +31,6 @@ public class HomeFragment extends Fragment {
         addNewsCard(newsContainer, R.drawable.news2, "Ex voluptas cumque eum consequuntur culpa et modi corrupti ut impedit aspernatur!");
         addNewsCard(newsContainer, R.drawable.news3, "Lorem ipsum dolor sit amet. Sed omnis quam ex veniam omnis...");
         addNewsCard(newsContainer, R.drawable.news4, "Ex voluptas cumque eum consequuntur culpa et modi corrupti ut impedit aspernatur!");
-        addNewsCard(newsContainer, R.drawable.news1, "Lorem ipsum dolor sit amet. Sed omnis quam ex veniam omnis...");
-        addNewsCard(newsContainer, R.drawable.news2, "Ex voluptas cumque eum consequuntur culpa et modi corrupti ut impedit aspernatur!");
-        addNewsCard(newsContainer, R.drawable.news2, "Ex voluptas cumque eum consequuntur culpa et modi corrupti ut impedit aspernat");
-        addNewsCard(newsContainer, R.drawable.news2, "Ex voluptas cumque eum consequuntur culpa et modi corrupti ut impedit aspernat");
-
         return root;
     }
 
